@@ -2,4 +2,4 @@
 using LeetCode.Problems;
 
 
-Console.WriteLine(Maximum_69_Number.Maximum69Number(6669));
+Console.WriteLine(Make_The_String_Great.MakeGood("leEeetcode"));
