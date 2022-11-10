@@ -41,7 +41,7 @@ namespace LeetCode.Problems
     //Output: "s"
     public class Make_The_String_Great
     {
-        public static string MakeGood(string s)
+        public string MakeGood(string s)
         {
             while (s.Length > 1)
             {
@@ -68,7 +68,7 @@ namespace LeetCode.Problems
         /// </summary>
         /// <param name="s"></param>
         /// <returns></returns>
-        public static string MakeGood_Ori(string s)
+        public string MakeGood_Ori(string s)
         {
             if (s.Length == 1)
                 return s;
@@ -80,7 +80,7 @@ namespace LeetCode.Problems
             return s;
         }
 
-        public static bool SearchTwoAdjacent_Ori(string s, out string r)
+        public bool SearchTwoAdjacent_Ori(string s, out string r)
         {
             for (int i = 0; i < s.Length; i++)
             {
@@ -97,7 +97,7 @@ namespace LeetCode.Problems
             return false;
         }
 
-        public static bool CheckTwoAdjacent(string s1, string s2)
+        public bool CheckTwoAdjacent(string s1, string s2)
         {
             if (s1.ToLower() == s2.ToLower() &&
                (s1 + s2 == s1.ToUpper() + s2.ToLower() || s1 + s2 == s1.ToLower() + s2.ToUpper())

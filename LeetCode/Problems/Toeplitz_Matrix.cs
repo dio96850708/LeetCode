@@ -22,7 +22,7 @@ namespace LeetCode.Problems
         //            In the above grid, the diagonals are:
         //"[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
         //In each diagonal all elements are the same, so the answer is True.
-        public static bool IsToeplitzMatrix(int[][] matrix)
+        public bool IsToeplitzMatrix(int[][] matrix)
         {
             var flag = true;
             for (var i = 0; i < matrix.Length - 1; i++)
