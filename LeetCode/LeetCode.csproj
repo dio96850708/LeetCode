@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Problems\947_Most_Stones_Removed_with_Same_Row_or_Column.cs" />
+    <Compile Remove="Problems\Medium\947_Most_Stones_Removed_with_Same_Row_or_Column.cs" />
+    <Compile Remove="Problems\Medium\No947_Most_Stones_Removed_with_Same_Row_or_Column.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Problems\Hard\" />
+  </ItemGroup>
+
 </Project>

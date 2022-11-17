@@ -8,13 +8,10 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Problems
 {
-    //1323. Maximum 69 Number
-    //Easy
-
     //You are given a positive integer consisting only of digits and.num69
 
     //Return the maximum number you can get by changing at most one digit(becomes , and becomes).6996
-    internal class Maximum_69_Number
+    internal class No1323_Maximum_69_Number
     {
         //Example 1:
 

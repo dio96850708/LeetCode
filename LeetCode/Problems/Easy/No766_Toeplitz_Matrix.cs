@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Problems
 {
-    //766. Toeplitz Matrix 
-    //Easy
-
     //Given an m x n matrix, return true if the matrix is Toeplitz.Otherwise, return false.
 
     //A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.
-    public class Toeplitz_Matrix
+    public class No766_Toeplitz_Matrix
     {
         //Input: matrix = [[1,2,3,4],
         //                 [5,1,2,3],
